@@ -1,0 +1,3 @@
+include ':ConfigurationEnvironemtVariables'
+include ':app'
+rootProject.name = "Configuration Environment Variables Example"
