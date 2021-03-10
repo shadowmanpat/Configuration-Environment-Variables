@@ -13,3 +13,11 @@ class LogDebug {
 
 
 }
+
+object AwesomeToast {
+    private val TAG = "SUPER_AWESOME_APP"
+
+    public fun d(message: String){
+        Log.d(TAG, message)
+    }
+}
